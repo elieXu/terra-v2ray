@@ -11,7 +11,7 @@ provider "aws" {
   region  = "ap-northeast-1"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "v2ray" {
   ami           = "ami-03b993a5a631b0050"
   instance_type = "t2.micro"
 }
