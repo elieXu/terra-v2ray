@@ -36,7 +36,7 @@ resource "aws_instance" "v2ray" {
     inline = [
       "curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh",
       "curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh",
-      "sudo bash install-release.sh",
+      "sudo bash install-release.sh --version v4.24.0",
       "sudo bash install-dat-release.sh",
       "sudo systemctl enable v2ray",
       "sudo systemctl start v2ray"
