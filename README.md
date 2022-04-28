@@ -33,3 +33,12 @@ terraform apply
 ```bash
 terryform destroy
 ```
+
+## debug info
+
+Latest v2ray server may not work, need to install specific version
+v2ray -config /usr/local/etc/v2ray/config.json
+systemctl stop firewalld.service
+open port in security group
+
+
