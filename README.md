@@ -2,8 +2,7 @@
 
 This repo is for hosting tf files for setting up v2ray server via Terraform.
 
-## Prerequisites
-
+## Prerequisites 
 ### AWS
 
 1. Install the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html). 
@@ -40,5 +39,6 @@ Latest v2ray server may not work, need to install specific version
 v2ray -config /usr/local/etc/v2ray/config.json
 systemctl stop firewalld.service
 open port in security group
+set timezone same as local machine - Asia/Shanghai
 
 
